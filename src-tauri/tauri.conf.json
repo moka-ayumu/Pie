@@ -1,0 +1,122 @@
+{
+  "package": {
+    "productName": "Pie",
+    "version": "0.0.1"
+  },
+  "build": {
+    "distDir": "../dist",
+    "devPath": "http://localhost:3000",
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "withGlobalTauri": true
+  },
+  "tauri": {
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "moka-ayumu.pie",
+      "icon": ["icons/32x32.png", "icons/128x128.png", "icons/128x128@2x.png", "icons/icon.icns", "icons/icon.ico"],
+      "resources": [],
+      "externalBin": [],
+      "copyright": "",
+      "category": "Productivity",
+      "shortDescription": "",
+      "longDescription": "",
+      "deb": {
+        "depends": [],
+        "useBootstrapper": false
+      },
+      "macOS": {
+        "frameworks": [],
+        "useBootstrapper": false,
+        "exceptionDomain": "",
+        "signingIdentity": null,
+        "providerShortName": null,
+        "entitlements": null
+      },
+      "windows": {
+        "certificateThumbprint": null,
+        "digestAlgorithm": "sha256",
+        "timestampUrl": ""
+      }
+    },
+    "updater": {
+      "active": false
+    },
+    "allowlist": {
+      "all": false,
+      "window": {
+        "all": false,
+        "center": false,
+        "close": true,
+        "create": true,
+        "hide": true,
+        "maximize": false,
+        "minimize": false,
+        "print": false,
+        "requestUserAttention": false,
+        "setAlwaysOnTop": true,
+        "setDecorations": false,
+        "setFocus": true,
+        "setFullscreen": false,
+        "setIcon": false,
+        "setMaxSize": false,
+        "setMinSize": false,
+        "setPosition": true,
+        "setResizable": false,
+        "setSize": true,
+        "setSkipTaskbar": false,
+        "setTitle": false,
+        "show": true,
+        "startDragging": false,
+        "unmaximize": false,
+        "unminimize": false
+      },
+      "globalShortcut": {
+        "all": true
+      },
+      "path": {
+        "all": true
+      },
+      "fs": {
+        "all": false,
+        "copyFile": false,
+        "createDir": true,
+        "readDir": true,
+        "readFile": true,
+        "removeDir": false,
+        "removeFile": false,
+        "renameFile": false,
+        "scope": ["$APP", "$APP/**/*"],
+        "writeFile": true
+      }
+    },
+    "windows": [
+      {
+        "title": "Pie",
+        "label": "main",
+        "width": 800,
+        "height": 600,
+        "resizable": true,
+        "fullscreen": false
+      },
+      {
+        "title": "PieFront",
+        "label": "piefront",
+        "transparent": true,
+        "url": "./index.html#Pie",
+        "alwaysOnTop": true,
+        "focus": true,
+        "decorations": false,
+        "visible": false,
+        "width": 190,
+        "height": 190,
+        "resizable": true,
+        "skipTaskbar": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  }
+}

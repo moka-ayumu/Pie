@@ -1,0 +1,40 @@
+{
+  "settings": {
+    "title": "설정",
+    "tabs": {
+      "shortcuts": {
+        "title": "단축키",
+        "profile": "프로파일",
+        "shortcut-name": "단축키 이름",
+        "listening": "입력중",
+        "key-listen": "키 입력",
+        "shortcut-add": "단축키 추가",
+        "shortcut-remove": "제거",
+        "new": "새로운 단축키",
+        "shortcuts": "단축키들",
+        "need-keys": "키 필요",
+        "cancel": "취소",
+        "shortcut-edit": "편집",
+        "edit": "편집"
+      },
+      "theme": {
+        "title": "테마",
+        "preview": "미리보기",
+        "default": "기본",
+        "unselected": "미선택",
+        "selected": "선택",
+        "textcolor": "글자 색",
+        "reset": "초기화",
+        "details": "세부 설정",
+        "radius": "반지름",
+        "thickness": "두께",
+        "font-size": "글꼴 크기",
+        "inner-pie": "내부"
+      },
+      "misc": {
+        "title": "기타",
+        "language": "언어"
+      }
+    }
+  }
+}

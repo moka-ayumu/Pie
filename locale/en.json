@@ -1,0 +1,40 @@
+{
+  "settings": {
+    "title": "Settings",
+    "tabs": {
+      "shortcuts": {
+        "title": "Shortcuts",
+        "profile": "Profile",
+        "shortcut-name": "Shortcut Name",
+        "listening": "Listening",
+        "key-listen": "Key Listen",
+        "shortcut-add": "Shortcut Add",
+        "shortcut-remove": "-",
+        "new": "New",
+        "shortcuts": "Shortcuts",
+        "need-keys": "Need Keys",
+        "cancel": "Cancel",
+        "shortcut-edit": "Edit",
+        "edit": "Edit"
+      },
+      "theme": {
+        "title": "Theme",
+        "preview": "Preview",
+        "default": "Default",
+        "unselected": "Unselected",
+        "selected": "Selected",
+        "textcolor": "Text Color",
+        "reset": "Reset",
+        "font-size": "Font Size",
+        "details": "Details",
+        "thickness": "Thickness",
+        "radius": "Radius",
+        "inner-pie": "Inner Pie"
+      },
+      "misc": {
+        "title": "Misc",
+        "language": "Language"
+      }
+    }
+  }
+}
